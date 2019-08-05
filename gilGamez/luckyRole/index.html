@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Lucky gatcha
+</title>
+<style type="text/css">
+@import url('main.css')
+</style>
+<script type="text/javascript" src="main.js"></script>
+<script src="jquery331.min.js"></script>
+</head>
+<body>
+	<div id="root" class="main-game hide" >
+		<div class="player-role">Ziddan Turn</div>
+		<div class="content" >
+			<script type="text/javascript">
+				doHere(10);
+			</script>
+			<button class="roleBtn" onclick="startRole()">Role</button>
+			<button class="reRoleBtn hide" onclick="reRole()">Re Role</button>
+		</div>
+	</div>
+	<div class="panel menu align-center">
+		<h2 class="round-box">
+			Roler Number
+		</h2>
+		
+		<div class="round-box">
+			<button onclick="startGame()">start game</button>
+			<button>How to play</button>
+			<button>about</button>
+			<button>rate game</button>
+		</div>
+	</div>
+	<div class="panel dialog hide align-center">
+		<h2 class="round-box d-head">
+			
+		</h2>
+		
+		<div class="round-box d-value" >
+			
+		</div>
+		
+		<button class="bottom-button" onclick="comp.dialog.closeDialog()">Close</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body{
+padding: 0 2px;
+margin:0;
+background:black;
+color:white;
+font-family:Arial,sans-serif;
+}
+
+div#rot{
+display:flex;
+flex-direction:columns;
+height:100%;
+}
+.player-role{
+background: rgba(255,255,255,0.4);
+padding:10px 20px;
+border:1px solid;
+display:inline-block;
+min-width:100px;
+}
+.content{
+position:relative;
+}
+.rounder-point{
+display:inline-block;
+margin:20px;
+border:1px solid;
+padding: 5px 20px;
+font-weight:bold;
+font-size:30pt;
+border-radius:10px;
+transition:background 300ms;
+}
+
+.active{
+border-color: blue;
+background:cornflowerblue;
+color:black;
+transform:scale(1.5,1.5);
+}
+.align-center{
+text-align:center;
+}
+.round-box{
+ border:10px double;
+ border-radius:5px;
+ padding:10px 20px;
+}
+button{
+border-style:none;
+background:white;
+color:black;
+padding:5px 10px;
+font-size:20pt;
+font-family:cursive;
+letter-spacing:2pt;
+text-transform:capitalize;
+margin:10px;
+min-width:200px;
+font-weight:500;
+}
+button:focus {
+opacity:0.7;
+}
+
+.no-10{
+width:50px;
+}
+.hide{
+display:none;
+}
+
+.dialog{
+background:rgba(200,200,200,1);
+padding:4%;
+position:absolute;
+width:90%;
+z-index:10;
+top:0px;
+min-height:80%;
+}
+.bottom-button{
+margin-top:100px;
+}
